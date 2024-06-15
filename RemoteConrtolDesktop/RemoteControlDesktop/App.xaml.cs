@@ -1,7 +1,5 @@
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Owin;
@@ -29,7 +27,8 @@ namespace RemoteControlDesktop
             _host = Host.CreateDefaultBuilder()
                 .ConfigureWebHostDefaults(webBuilder => webBuilder
                     .UseUrls($"http://{localIP}:7519")
-                    .ConfigureServices(services => {
+                    .ConfigureServices(services =>
+                    {
                         ConfigureServices(services);
                         _serviceProvider = services.BuildServiceProvider();
                         services.AddCors(options =>

@@ -1,9 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteControlDesktop", "RemoteControlDesktop\RemoteCotrolDesktop.csproj", "{A2D865EA-811E-4ECE-ACD9-12BDE63B112C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteControlDesktop", "RemoteControlDesktop\RemoteControlDesktop.csproj", "{8A1274C3-AB5D-4081-8E84-7FD5F9D87CB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +10,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2D865EA-811E-4ECE-ACD9-12BDE63B112C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2D865EA-811E-4ECE-ACD9-12BDE63B112C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2D865EA-811E-4ECE-ACD9-12BDE63B112C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2D865EA-811E-4ECE-ACD9-12BDE63B112C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1274C3-AB5D-4081-8E84-7FD5F9D87CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1274C3-AB5D-4081-8E84-7FD5F9D87CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1274C3-AB5D-4081-8E84-7FD5F9D87CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1274C3-AB5D-4081-8E84-7FD5F9D87CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
